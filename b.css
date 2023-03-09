@@ -1,0 +1,43 @@
+html{
+    padding-bottom: 1000px;
+}
+
+div {
+    padding: 10px;
+    border: 1px solid black ;
+    margin: 10px
+}
+
+.static{
+    position: static;
+    top: 10px;
+    background-color: aqua;
+}
+
+.relative{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(38, 7, 111);
+}
+
+.absolute{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(18, 177, 31);
+}
+
+.fixed{
+    position: fixed;
+    top: 10px;
+    left: 200px;
+    background-color: rgb(177, 18, 66);
+}
+
+.styck{
+    top: 10px;
+    position: sticky;
+    left: 20px;
+    background-color: rgb(18, 177, 169);
+}
